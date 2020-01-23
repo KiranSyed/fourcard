@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-color: #f4f0f7;
+	/*font-family: 'Karla', sans-serif;*/
+	font-family: 'Varela Round', sans-serif;
+	text-align: center; 
+	line-height: 2;
+	color: #313131;
+}
+img {
+	float: right;
+}
+.headings{
+	 
+	width: 75%;
+	margin: auto;
+	text-align:  justify;
+	text-align-last: justify;
+}
+.main-header{
+	width: 40%;
+	margin: auto;
+}
+
+.first-heading{
+	font-family: 'Karla', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 100;
+
+}
+.second-heading{
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+@media only screen and (min-width: 600px){
+	.cards{
+	margin: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	justify-content: space-around;
+	text-align: left;
+}
+.card2, .card4{
+	margin-top: 0;
+}
+}
+
+.card1{
+	overflow: hidden;
+	flex-basis: 28%;
+	background-color: #fff;
+	padding: 2rem;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  	border-top: 3px solid #04f7fb;
+  	
+}
+.middlecards
+{
+	flex-basis: 28%;
+	
+}
+.card2{
+	overflow: hidden;
+	margin-top: 3rem;
+	background-color: #fff;
+	border-top: 3px solid #b7031a;
+	padding: 2rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	
+	
+}
+.card3{
+	overflow: hidden;
+	background-color: #fff;
+	padding: 2rem;
+	margin-top: 3rem;
+	border-top: 3px solid #ed7901;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	
+}
+
+.card4{
+	overflow: hidden;
+	margin-top: 3rem;
+	flex-basis: 28%;
+	background-color: #fff;
+	padding: 2rem;
+	border-top: 3px solid #012374;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
