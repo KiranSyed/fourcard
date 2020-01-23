@@ -3,7 +3,6 @@
 }
 body{
 	background-color: #f4f0f7;
-	/*font-family: 'Karla', sans-serif;*/
 	font-family: 'Varela Round', sans-serif;
 	text-align: center; 
 	line-height: 2;
@@ -14,15 +13,11 @@ img {
 }
 .headings{
 	 
-	width: 75%;
+	max-width: 100%;
 	margin: auto;
-	text-align:  justify;
-	text-align-last: justify;
+	text-align:  center;
 }
-.main-header{
-	width: 40%;
-	margin: auto;
-}
+
 
 .first-heading{
 	font-family: 'Karla', sans-serif;
@@ -35,6 +30,7 @@ img {
 	font-family: 'Varela Round', sans-serif;
 	margin: 0;
 	padding: 0;
+	font-weight: 2rem;
 }
 @media only screen and (min-width: 600px){
 	.cards{
@@ -45,6 +41,14 @@ img {
 	justify-content: space-around;
 	text-align: left;
 }
+	.main-header{
+		max-width: 75%;
+		margin: auto;
+	}
+	.headungs{
+	max-width: 40%;
+	margin: auto;
+	}
 .card2, .card4{
 	margin-top: 0;
 }
