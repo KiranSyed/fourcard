@@ -4,42 +4,87 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FourCard</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--  google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Karla|Varela+Round&display=swap" rel="stylesheet">
+	 <!--css style sheets -->
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	  <link rel="stylesheet" href="css/styles.css">
+	  <!-- JavaScript -->
+ 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
+	<!-- Heading Section -->
 	<div class="main-header">
 		<div class="headings">
 			<h1 class="first-heading">Reliable, Efficient delivery</h1>
 			<h1 class="second-heading">Powered by Technology</h1>
 		</div>
 		<p>Our Artificial Intellegence tools use millions of project data points to ensure that your project is successful </p>
-	</div>
-	<div class="cards">
-		<div class= "card1">
-			<h3>Supervisor</h3>
-			<p>Monitors activity to identify project roadblocks</p>
-			<img src="images/superviser.png" alt="magnifier image">
-		</div>
-		<div class= "middlecards">
-			<div class="card2">
-				<h3>Team Builder</h3>
-				<p>scans our talent network to create the optimal team for your project</p>
-				<img src="images/teambuilding.png" alt="house image">
+	</div><!-- Heading Section -->
+	<!-- Cards Section -->
+	<div class="container-fluid">
+	<div class="row align-items-center">
+		<!-- Card 1 -->
+		<div class="first-col col-lg-4">
+			<div class="card card1">
+				<div class= "card-header">
+					<h3>Supervisor</h3>
+				</div>
+				<div class="card-body">
+					<p>Monitors activity to identify project roadblocks</p>
+				</div>
+				<div class="card-footer">
+					<img src="images/superviser.png" alt="magnifier image">
+				</div>
 			</div>
-			<div class="card3">
-				<h3>Karma</h3>
-				<p>Regularly evaluate our talent to ensure quality</p>
-				<img src="images/karma.png" alt="bulb image">
-			</div> 
 		</div>
-		<div class= "card4">
-			<h3>Caculator</h3>
-			<p>Uses data from past projects to provide better delivery estimates</p>
-			<img src="images/calculator.png" alt="calculator image">
+			<!-- Two Middle Cards -->
+				<div class= "middle-col col-lg-4">
+					<!-- Card 2 -->
+					<div class="card card2">
+						<div class= "card-header">
+							<h3>Team Builder</h3>
+						</div>
+						<div class="card-body">
+							<p>scans our talent network to create the optimal team for your project</p>
+						</div>
+						<div class="card-footer">
+							<img src="images/teambuilding.png" alt="house image">
+						</div>
+					</div><!-- Card 2 -->
+					<!-- Card 3 -->
+					<div class="card card3">
+						<div class= "card-header">
+							<h3>Karma</h3>
+						</div>
+						<div class="card-body">
+							<p>Regularly evaluate our talent to ensure quality</p>
+						</div>
+						<div class="card-footer">
+							<img src="images/karma.png" alt="bulb image">
+						</div>
+					</div> <!-- Card 3 -->
+				</div><!-- Two Middle Cards -->
+				<!-- Card 4 -->
+				<div class="last-col col-lg-4">
+					<div class="card card4">
+						<div class= "card-header">
+							<h3>Caculator</h3>
+						</div>
+						<div class="card-body">
+							<p>Uses data from past projects to provide better delivery estimates</p>
+						</div>
+						<div class="card-footer">
+							<img src="images/calculator.png" alt="calculator image">
+						</div>
+					</div> <!-- Card 4 -->
+				</div>
+			</div><!--  row -->
 		</div>
-	</div>
 	<div class="clr"></div>
 </body>
 </html>

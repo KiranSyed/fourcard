@@ -1,99 +1,67 @@
-* {
-  box-sizing: border-box;
-}
+
 body{
 	background-color: #f4f0f7;
-	font-family: 'Varela Round', sans-serif;
-	text-align: center; 
+	font-family: 'Varela Round', sans-serif; 
 	line-height: 2;
 	color: #313131;
 }
-img {
-	float: right;
+/*Containers*/
+.container-fluid{
+	padding: 5% 8%;
 }
-.headings{
-	 
-	max-width: 100%;
-	margin: auto;
-	text-align:  center;
+/*Headings*/
+.headings
+{	
+	max-width: 90%;
+	font-size: 2rem;
 }
-
-
+/*Heading Section*/
+.main-header{
+		max-width: 40%;
+		margin: auto;
+		text-align: center;
+	}
 .first-heading{
 	font-family: 'Karla', sans-serif;
-	margin: 0;
-	padding: 0;
 	font-weight: 100;
-
 }
-.second-heading{
-	font-family: 'Varela Round', sans-serif;
-	margin: 0;
-	padding: 0;
-	font-weight: 2rem;
+/*Card Section*/	
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  	margin-bottom: 30px;
 }
-@media only screen and (min-width: 768px){
-	.cards{
-	margin: 3rem;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	justify-content: space-around;
-	text-align: left;
-}
-	.main-header{
-		max-width: 75%;
-		margin: auto;
-	}
-	.headungs{
-	max-width: 40%;
-	margin: auto;
-	}
-.card2, .card4{
-	margin-top: 0;
-}
-}
-
-.card1{
-	overflow: hidden;
-	flex-basis: 28%;
+.card-header {
+	border: none;
 	background-color: #fff;
-	padding: 2rem;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-  	border-top: 3px solid #04f7fb;
-  	
+
 }
-.middlecards
-{
-	flex-basis: 28%;
-	
+.card-footer{
+	text-align: right;
+	border: none;
+	background-color: #fff;
+}
+.card1{
+	border-top: 3px solid #04f7fb;
 }
 .card2{
-	overflow: hidden;
-	margin-top: 3rem;
-	background-color: #fff;
 	border-top: 3px solid #b7031a;
-	padding: 2rem;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-	
-	
 }
 .card3{
-	overflow: hidden;
-	background-color: #fff;
-	padding: 2rem;
-	margin-top: 3rem;
 	border-top: 3px solid #ed7901;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-	
 }
-
 .card4{
-	overflow: hidden;
-	margin-top: 3rem;
-	flex-basis: 28%;
-	background-color: #fff;
-	padding: 2rem;
+
 	border-top: 3px solid #012374;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
+/*Mobile Responsiveness*/
+@media (max-width: 1024px){
+	.main-header{
+		max-width: 90%;
+		
+	}
+	.headings{
+		max-width: 100%;
+	}
+
+}
+	
